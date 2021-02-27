@@ -6,10 +6,13 @@
 
 - La création de ce petit module nécessite peu de connaissances : il suffit de connaître les bases du Javascript, du CSS et, bien sûr, de l'HTML. :)
 
-- Normalement y a 2 types d'horloge (analogique et numérique) : Vous devez developer une horloge de votre choix comme les image ci-joint.
+- Normalement y a 2 types d'horloge (analogique et numérique) : Vous devez developer une horloge de votre choix comme l'[image ci-joint](./img/Screenshot_3.png).
 
-<!-- add images here -->
-<!-- explan detials of ws -->
+## What will you win
 
-
-## Best of luck
+- use [Live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) to colaborate (for help)
+- Positionement in CSS
+- Transform proprety in CSS3
+- JS Variable Declataion
+- How to select HTML element using DOM API
+- How to use setTimeout() & setInterval()

@@ -3,7 +3,7 @@
 ## Animation JS : Flex Pannels
 Dans ce workshop, vous devez travailler un Flex et Pannels sous Javascript pour avoir une résultat comme Flex pannel image
 
- - Le point final que nous visons est que ces panneaux d'images soient verticaux et qu'il y ait une certaine animation dans l'image et le texte lorsque l'on clique sur chaque section. voir vidéo Flex Pannels.mp4
+ - Le point final que nous visons est que ces panneaux d'images soient verticaux et qu'il y ait une certaine animation dans l'image et le texte lorsque l'on clique sur chaque section. voir vidéo Flex[Pannels.mp4](./img/Flex%20Panels.mp4)
 
 - Fonts : https://fonts.googleapis.com/css?family=Amatic+SC
 - Background color : #ffc600
@@ -15,4 +15,10 @@ Dans ce workshop, vous devez travailler un Flex et Pannels sous Javascript pour 
  -- https://source.unsplash.com/ITjiVXcwVng/1500x1500
  --https://source.unsplash.com/3MNzGlQM7qs/1500x1500
 
-## Best of luck
+
+## What will you win
+
+- use [Live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) to colaborate (2 persons)
+- Declare all variables using CSS custom property
+- JS basics
+- DOM Manipulation
