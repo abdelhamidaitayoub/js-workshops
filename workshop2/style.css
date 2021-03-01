@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root{
+    --font-color:white;
+    --font-family: 'Amatic SC', cursive;
+    --bck-color:#ffc600;
+
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+#contanier__cards{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bck-color);
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+
+p{
+    font-weight: 100;
+}
+
+#card1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background-image: url('img/image1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#card2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background-image: url('img/image2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#card3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background-image: url('img/image3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#card4{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background-image: url('img/image4.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#card5{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background-image: url('img/image5.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
