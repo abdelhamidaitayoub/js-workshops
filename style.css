@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+:root {
+  --color-black: #01020A;
+  --color-white: #FFFECB;
+  --color-yellow: #FFBC48;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: var(--color-white);
+  /*  */
+  height: 100vh;
+  background-color: var(--color-black);
+}
+
+.project {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.project__header {
+  font-weight: 700;
+  letter-spacing: .7rem;
+}
+
+.project__header a {
+  color: var(--color-yellow);
+  -webkit-transition: color 4ms;
+  transition: color 4ms;
+}
+
+.project__header a:hover {
+  color: var(--color-white);
+}
+
+.project__competance {
+  font-weight: 700;
+  letter-spacing: .7rem;
+  margin: .5rem 0 3rem;
+}
+
+.project__btn {
+  color: var(--color-white);
+  margin-bottom: 1.3rem;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-delay: 4ms;
+          transition-delay: 4ms;
+}
+
+.project__btn:hover {
+  color: var(--color-yellow);
+}
