@@ -7,8 +7,15 @@
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: var(--font-family);
+    overflow: hidden;
 }
 
 #contanier__cards{
@@ -21,8 +28,15 @@ body{
 
 }
 
-p{
-    font-weight: 100;
+h3{
+    font-weight: 400;
+    font-size: 4rem;
+    text-shadow: 2px 2px #000;
+}
+
+h1{
+    font-size: 5rem;
+    text-shadow: 2px 2px #000;
 }
 
 #card1{
@@ -35,6 +49,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    justify-content: center;
 }
 #card2{
     width: 20%;
@@ -46,6 +61,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    justify-content: center;
 }
 #card3{
     width: 20%;
@@ -57,6 +73,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    justify-content: center;
 }
 #card4{
     width: 20%;
@@ -68,6 +85,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    justify-content: center;
 }
 #card5{
     width: 20%;
@@ -79,5 +97,20 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    justify-content: center;
 }
 
+.title-top{
+    transform: translateY(-400%);
+    transition: transform 1s ease;
+}
+
+.title-bottom{
+    transform: translateY(400%);
+    transition: transform 1s ease;
+}
+
+.show{
+    transform: translateY(0);
+    font-size: 6rem;
+}
