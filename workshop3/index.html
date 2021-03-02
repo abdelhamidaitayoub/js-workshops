@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ToDo</title>
 </head>
 <body>
+    <div class="container">
+        <div class="title">
+            <h1>Todo List </h1>
+        </div>
+        <div class="dash">
+            <input type="text" placeholder="Search ToDos">
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <p>Une Activité</p>
+                    <button><img src="./img/trash.png"></button>
+                </li>
+                <li>
+                    <p>Deuxieme Activité</p>
+                    <button><img src="./img/trash.png"></button>
+                </li>
+            </ul>
+        </div>
+        <div class="add">
+            <label class="what">What will you do ?</label>
+            <input type="text">
+            <input type="submit" class="addbutton" value="+ Add ToDos">
+        </div>
 
+    </div>
+    
 </body>
 </html>
