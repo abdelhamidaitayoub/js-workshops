@@ -16,7 +16,6 @@ cards.forEach(card => {
     });
     
     card.addEventListener('mouseleave',() =>{
-        
         card.firstElementChild.classList.remove('show');
         card.lastElementChild.classList.remove('show'); 
    });
