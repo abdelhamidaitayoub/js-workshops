@@ -7,20 +7,22 @@
 const cards = document.querySelectorAll('.card');
 
 cards.forEach(card => {
-
+    
+    card.style.transition = 'width 1s';
    
     card.addEventListener('mouseenter',() =>{
-        card.style.width='60%';
         card.firstElementChild.classList.add('show');
         card.lastElementChild.classList.add('show');
-        
+    });
     
-    });
     card.addEventListener('mouseleave',() =>{
-        card.style.width='20%';
         card.firstElementChild.classList.remove('show');
-        card.lastElementChild.classList.remove('show');
-    });
+        card.lastElementChild.classList.remove('show'); 
+   });
+
+  
     
 });
+
+  
 

@@ -39,7 +39,28 @@ h1{
     text-shadow: 2px 2px #000;
 }
 
+
+#card1{
+    
+    background-image: url('img/image1.jpeg');
+  
+}
+
+#card1{
+    
+    background-image: url('img/image1.jpeg');
+}
+#card2{
+  
+    background-image: url('img/image2.jpeg');}
+    
+#card3{
+  
+    background-image: url('img/image3.jpeg');
+    
+}
 .card{
+    
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -49,40 +70,34 @@ h1{
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
+
+
+    
 }
 
-#card1{
-    
-    background-image: url('img/image1.jpeg');
+.card:hover {
+    width: 60%;
 }
-#card2{
-    
-    background-image: url('img/image2.jpeg');
-    
-}
-#card3{
-    
-    background-image: url('img/image3.jpeg');
-    
-}
+
 #card4{
-    
+    color: var(--font-color);
     background-image: url('img/image4.jpeg');
-    
+   
 }
 #card5{
     
     background-image: url('img/image5.jpeg');
-    
+
+
 }
 
 .title-top{
-    transform: translateY(-400%);
+    transform: translateY(-500%);
     transition: transform 1s ease;
 }
 
 .title-bottom{
-    transform: translateY(400%);
+    transform: translateY(500%);
     transition: transform 1s ease;
 
 }
@@ -92,3 +107,5 @@ h1{
     font-size: 6rem;
     transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
 }
+
+
