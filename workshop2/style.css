@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+:root {
+  --font-color: white;
+  --font-family: "Amatic SC", cursive;
+  --bck-color: #ffc600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  overflow: hidden;
+}
+
+#contanier__cards {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bck-color);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 4rem;
+  text-shadow: 2px 2px #000;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 2px 2px #000;
+}
+
+#card1 {
+  background-image: url("img/image1.jpeg");
+}
+
+#card2 {
+  background-image: url("img/image2.jpeg");
+}
+
+#card3 {
+  background-image: url("img/image3.jpeg");
+}
+.card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  color: var(--font-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  width: 60%;
+}
+
+#card4 {
+  color: var(--font-color);
+  background-image: url("img/image4.jpeg");
+}
+#card5 {
+  background-image: url("img/image5.jpeg");
+}
+
+.title-top {
+  transform: translateY(-500%);
+  transition: transform 1s ease;
+}
+
+.title-bottom {
+  transform: translateY(500%);
+  transition: transform 1s ease;
+}
+
+.show {
+  transform: translateY(0);
+  font-size: 6rem;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+}
