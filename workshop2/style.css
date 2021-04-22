@@ -17,6 +17,7 @@ body {
   overflow: hidden;
 }
 
+<<<<<<< Updated upstream
 #contanier__cards {
   width: 100vw;
   height: 100vh;
@@ -24,6 +25,15 @@ body {
   display: flex;
   flex-wrap: nowrap;
 }
+=======
+#contanier__cards{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bck-color);
+    display: flex;
+    flex-wrap: nowrap;
+ 
+>>>>>>> Stashed changes
 
 h3 {
   font-weight: 400;
